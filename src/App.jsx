@@ -1,10 +1,16 @@
 // import { useState } from "react";
 
+import Home from "./pages/Home";
+import Sidebar from "./pages/Sidebar";
+
 function App() {
   return (
     <>
-      <div>
-        <h2>Portfolio</h2>
+      <div className=" min-h-screen bg-bgcolor text-white ">
+        <div className=" xl:container xl:mx-auto">
+          <Sidebar />
+          <Home />
+        </div>
       </div>
     </>
   );
