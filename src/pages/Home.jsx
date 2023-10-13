@@ -2,8 +2,8 @@ const Home = () => {
   const iconStyle =
     "bg-gray-400 rounded-full p-1 w-10 transform hover:scale-110 cursor-pointer transition duration-500";
   return (
-    <div className="border h-screen">
-      <div className=" flex justify-end py-4 space-x-5 pr-10">
+    <div id="home" className="border h-screen">
+      <div className="border flex justify-end py-4 space-x-5 pr-10">
         <img
           className={iconStyle}
           src="/367593_linkedin_business_network_social_icon.png"
@@ -26,9 +26,9 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="flex justify-around border">
-        <div className="border text-4xl w-full">
-          <div className="text-center flex flex-col justify-center align-middle">
+      <div className="flex justify-around border ml-32 align-middle mt-[8%]">
+        <div className="border text-4xl w-full flex flex-col justify-center align-middle">
+          <div className="text-center ">
             Hello 👋 <br /> , I'm David B, <br /> Software Developer
           </div>
         </div>
