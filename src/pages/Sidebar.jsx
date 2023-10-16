@@ -21,11 +21,14 @@ const Sidebar = () => {
               alt=""
             />
           </Link>
-          <Link to="contact">
+          <Link to="techstack">
+            <img className={iconStyle} src="/pageicons/user.png" alt="" />
+          </Link>
+          <Link to="projects">
             <img className={iconStyle} src="/pageicons/contact.png" alt="" />
           </Link>
-          <Link>
-            <img className={iconStyle} src="/pageicons/user.png" alt="" />
+          <Link to="contact">
+            <img className={iconStyle} src="/pageicons/contact.png" alt="" />
           </Link>
         </div>
       </div>

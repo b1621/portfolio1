@@ -3,7 +3,9 @@
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 import Sidebar from "./pages/Sidebar";
+import TechStack from "./pages/TechStack";
 
 function App() {
   return (
@@ -11,9 +13,13 @@ function App() {
       <div className=" min-h-screen bg-bgcolor text-white ">
         <div className=" xl:container xl:mx-auto">
           <Sidebar />
-          <Home />
-          <About />
-          <Contact />
+          <div className="md:ml-32">
+            <Home />
+            <About />
+            <TechStack />
+            <Projects />
+            <Contact />
+          </div>
         </div>
       </div>
     </>
