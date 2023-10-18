@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Sidebar from "./pages/Sidebar";
+import Slider from "./pages/Slider";
 import TechStack from "./pages/TechStack";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Home />
             <About />
             <TechStack />
+            <Slider />
             <Projects />
             <Contact />
           </div>
