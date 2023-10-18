@@ -4,7 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        bgcolor: "#191919",
+        //#1B1B1E dark
+        //#242425 light
+        // bgcolor: "#191919",
+        bgcolor2: "#242425",
+        bgcolor: "#1B1B1E",
         custom: {
           50: "#F2F2F2", // Lightest
           100: "#E6E6E6",

@@ -9,7 +9,7 @@ const Contact = () => {
     <div className=" " id="contact">
       <div className=" h-screen  flex flex-col justify-between">
         <div className="">
-          <div className="border border-slate-600 bg-custom-800 rounded-lg my-20 mx-40 p-2">
+          <div className=" bg-bgcolor2 rounded-lg my-20 mx-40 p-2">
             <h2 className=" text-4xl text-center mt-4 mb-12 text-slate-300">
               Drop Me A Message
             </h2>
@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className=" border-t border-slate-700 mx-auto w-[80%]"></div>
+        <div className=" border-t border-slate-700 mx-auto w-[80%] pb-2"></div>
         <div className=" flex justify-around pb-14">
           <div className="flex text-sm space-x-20 text-slate-300">
             <p>+251 925 536 784</p>
