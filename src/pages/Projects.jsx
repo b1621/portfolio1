@@ -70,7 +70,7 @@ const Projects = () => {
   return (
     <div className=" min-h-screen" id="projects">
       <div className="">
-        <h2 className="text-center text-4xl mb-4 mt-7">Projects</h2>
+        <h2 className="text-center text-5xl mb-4 mt-7">Projects</h2>
         <h3 className="text-center text-2xl text-slate-200">
           Things i've built so far
         </h3>
