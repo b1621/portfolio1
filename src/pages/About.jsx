@@ -11,14 +11,28 @@ const About = () => {
           />
         </div>
         <div className=" space-y-10 w-[650px]  mx-10 my-20">
-          <h2 className=" text-2xl md:text-4xl text-center">About Me</h2>
+          <h2 className=" text-2xl md:text-5xl text-center">About Me</h2>
           <p className=" ">
             Howdy, My Name Is Wadee-_-Haddad A Cyber-Security Student At Amman
             Arab University, Born On May 25, 2004. I've Accomplished Several
             Notable Achievements, Including Receiving An Academic Acceleration
             From The Ministry Of Education In Jordan.
           </p>
-          <button>Download Cv</button>
+          <div className="">
+            <a
+              className=" px-5 py-1 "
+              href="/pdf/Booktree.ngLinux-Basics-for-Hackers.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="inline w-4 mr-2 mb-1"
+                src="/settings/download-2-24.ico"
+                alt=""
+              />
+              Download Cv
+            </a>
+          </div>
         </div>
       </div>
     </div>
