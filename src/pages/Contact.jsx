@@ -9,7 +9,7 @@ const Contact = () => {
     <div className=" " id="contact">
       <div className=" h-screen  flex flex-col justify-between">
         <div className="">
-          <div className=" bg-bgcolor2 rounded-lg my-20 mx-40 p-2">
+          <div className=" bg-bgcolor2 rounded-lg lg:my-10 my-20 mx-40 p-2">
             <h2 className=" text-4xl text-center mt-4 mb-12 text-slate-300">
               Drop Me A Message
             </h2>
@@ -32,8 +32,8 @@ const Contact = () => {
                   name=""
                   placeholder="your message ... "
                   id=""
-                  cols="70"
-                  rows="10"
+                  cols="170"
+                  rows="8"
                 ></textarea>
               </div>
               <button className="border px-10 rounded-md py-1 border-green-700 text-green-700 transition duration-300 hover:bg-green-700 hover:text-slate-200">
