@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" h-screen " id="about">
+    <div className=" h-screen section " id="about" name="about">
       <div className=" my-20 flex mx-14">
         <div className=" md:-my-10 hidden sm:block ">
           <img
@@ -23,7 +23,7 @@ const About = () => {
           </p>
           <div className=" ">
             <a
-              className=" px-5 py-1 border rounded-md border-green-700 hover:gb-green-700 text-green-700"
+              className=" px-5 py-1 border rounded-md border-green-700   hover:shadow-md hover:shadow-green-700  text-green-700 "
               href="/pdf/Booktree.ngLinux-Basics-for-Hackers.pdf"
               target="_blank"
               rel="noopener noreferrer"

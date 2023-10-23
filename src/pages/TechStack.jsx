@@ -5,7 +5,7 @@ const TechStack = () => {
   const iconStyle = "h-20";
   return (
     <div className=" h-screen border border-bgcolor" id="techstack">
-      <div className="mt-[10%] ">
+      <div className="mt-[2%] ">
         {/* <h2 className=" font-bold text-xl text-center">My Tech Stack</h2> */}
         <h2 className="text-center text-4xl mb-3">My Tech Stack</h2>
         <h3 className=" text-center text-2xl text-slate-200">

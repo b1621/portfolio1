@@ -9,7 +9,10 @@ const Contact = () => {
     <div className=" " id="contact">
       <div className=" h-screen  flex flex-col justify-between">
         <div className="">
-          <div className=" bg-bgcolor2 rounded-lg my-20 mx-40 p-2">
+          <div
+            className=" bg-bgcolor2 rounded-lg my-20 mx-40 p-2 "
+            data-aos="zoom-in"
+          >
             <h2 className=" text-4xl text-center mt-4 mb-12 text-slate-300">
               Drop Me A Message
             </h2>

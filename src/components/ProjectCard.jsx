@@ -9,7 +9,11 @@ const ProjectCard = ({
   image,
 }) => {
   return (
-    <div className="border border-slate-700 text-slate-400  w-72 rounded-xl mt-7 mr-10">
+    <div
+      className="border border-slate-700 text-slate-400  w-72 rounded-xl mt-7 mr-10"
+      data-aos="flip-left"
+      // data-aos="fade-left"
+    >
       {/* <img className="  rounded-t-md opacity-80 h-48" src={image} alt="" />
       <div className=" p-4 space-y-2">
         <h2 className="text-lg text-slate-200">{title}</h2>

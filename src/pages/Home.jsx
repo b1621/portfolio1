@@ -27,12 +27,17 @@ const Home = () => {
         />
       </div>
       <div className="flex justify-around  w-[90%] mx-auto  align-middle mt-[8%]">
-        <div className=" text-6xl w-full flex flex-col justify-center align-middle">
+        <div
+          className=" text-6xl w-full flex flex-col justify-center align-middle"
+          data-aos="fade-down-right"
+        >
           <div className="text-center ">
-            Hello 👋 <br /> , I'm David B, <br /> Software Developer
+            Hello 👋 <br /> , I'm
+            <span className=" text-green-700">David B</span>, <br /> Software
+            Developer
           </div>
         </div>
-        <div className="flex justify-start   w-full">
+        <div className="flex justify-start   w-full" data-aos="fade-up-left">
           <img
             className=" -ml-28 -mt-10 top p-3 h-[120%]"
             src="./christian-buehner-DItYlc26zVI-unsplash-removebg-preview.png"
