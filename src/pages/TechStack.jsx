@@ -1,7 +1,8 @@
 import React from "react";
+import Slider from "./Slider";
 
 const TechStack = () => {
-  const iconStyle = "h-32";
+  const iconStyle = "h-20";
   return (
     <div className=" h-screen border border-bgcolor" id="techstack">
       <div className="mt-[10%] ">
@@ -128,6 +129,7 @@ const TechStack = () => {
             />
           </div>
         </div>
+        <Slider />
       </div>
     </div>
   );

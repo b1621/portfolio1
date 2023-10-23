@@ -10,7 +10,10 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className=" space-y-10 w-[650px]  mx-10 my-20">
+        <div
+          data-aos="fade-left"
+          className=" space-y-10 w-[650px]  mx-10 my-20"
+        >
           <h2 className=" text-2xl md:text-5xl text-center">About Me</h2>
           <p className=" ">
             Howdy, My Name Is Wadee-_-Haddad A Cyber-Security Student At Amman
@@ -18,9 +21,9 @@ const About = () => {
             Notable Achievements, Including Receiving An Academic Acceleration
             From The Ministry Of Education In Jordan.
           </p>
-          <div className="">
+          <div className=" ">
             <a
-              className=" px-5 py-1 "
+              className=" px-5 py-1 border rounded-md border-green-700 hover:gb-green-700 text-green-700"
               href="/pdf/Booktree.ngLinux-Basics-for-Hackers.pdf"
               target="_blank"
               rel="noopener noreferrer"

@@ -33,15 +33,12 @@ const Slider = () => {
   const duplicatedImageUrls = [...imageUrls, ...imageUrls, ...imageUrls];
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center">
-      <div className="w-[90%] h-screen overflow-hidden relative">
-        <div className=" slider flex transition-transform duration-1000 ease-in-out infinite">
+    <div className=" w-full flex items-center justify-center">
+      <div className="w-[90%] overflow-hidden relative    ">
+        <div className=" slider flex transition-transform duration-1000 ease-in-out   infinite">
           {/* ------------------------- */}
           {duplicatedImageUrls.map((image, index) => (
-            <div
-              key={index}
-              className="slide w-32 mx-3 h-32 flex-shrink-0 shadow-md"
-            >
+            <div key={index} className="slide w-32 mx-3 h-32 flex-shrink-0 ">
               <img
                 src={image}
                 className=" w-fit h-fit object-cover"

@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        custom: "10px 0px 20px 0px rgba(255, 255, 255, 0.8)",
+      },
       colors: {
         //#1B1B1E dark
         //#242425 light
