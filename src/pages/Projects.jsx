@@ -69,12 +69,12 @@ const Projects = () => {
   ];
   return (
     <div className=" min-h-screen" id="projects">
-      <div className="">
+      <div className=" mt-4">
         <h2 className="text-center text-5xl mb-4 mt-7">Projects</h2>
         <h3 className="text-center text-2xl text-slate-200">
           Things i've built so far
         </h3>
-        <div className="flex flex-wrap  mt-10 mb-14 mx-10">
+        <div className="flex flex-wrap  mb-32 mx-10">
           {projectsList.map((project) => (
             <div key={project}>
               <ProjectCard

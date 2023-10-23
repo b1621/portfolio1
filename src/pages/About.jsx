@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" h-screen border border-yellow-800" id="about">
+    <div className=" h-screen " id="about">
       <div className=" my-20 flex mx-14">
         <div className=" md:-my-10 hidden sm:block ">
           <img

@@ -6,10 +6,18 @@ const Sidebar = () => {
   const styleIcon =
     "w-6 opacity-70 duration-300 hover:scale-110 cursor-pointer";
   return (
-    <div className=" w-32  fixed h-full flex flex-col justify-end">
+    <div className=" w-32  fixed h-full flex flex-col justify-end justify-center">
       <div className=" mb-10 ">
-        <div className=" w-20 mx-auto flex flex-col space-y-4 ">
-          <Link title="about">
+        <div className=" w-20 mx-auto flex flex-col space-y-6 ">
+          <Link to="home">
+            <img
+              title="home"
+              className={styleIcon}
+              src="/settings/house-24.ico"
+              alt=""
+            />
+          </Link>
+          <Link to="about">
             <img
               title="about"
               className={styleIcon}
@@ -17,7 +25,7 @@ const Sidebar = () => {
               alt=""
             />
           </Link>
-          <Link>
+          <Link to="techstack">
             <img
               title="skills"
               className={styleIcon}
@@ -25,7 +33,7 @@ const Sidebar = () => {
               alt=""
             />
           </Link>
-          <Link>
+          <Link to="projects">
             <img
               title="projects"
               className={styleIcon}
@@ -33,7 +41,7 @@ const Sidebar = () => {
               alt=""
             />
           </Link>
-          <Link>
+          <Link to="contact">
             <img
               title="message"
               className={styleIcon}
