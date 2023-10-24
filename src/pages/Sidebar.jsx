@@ -46,7 +46,7 @@ const Sidebar = () => {
   console.log("active link is : ", activeLink);
 
   return (
-    <div className=" w-32  fixed h-full flex flex-col justify-end justify-center">
+    <div className=" w-32  fixed h-full hidden md:flex flex-col justify-end justify-center  ">
       <div className=" mb-10 ">
         <div className=" w-20 mx-auto flex flex-col space-y-6 ">
           <Link to="home" smooth={true} duration={1500}>

@@ -11,6 +11,9 @@ import TechStack from "./pages/TechStack";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -25,7 +28,8 @@ function App() {
       <div className=" min-h-screen bg-bgcolor text-white ">
         <div className=" xl:container xl:mx-auto">
           <Sidebar />
-          <div className="md:ml-32">
+          <div className="ml-0 md:ml-32">
+            <ToastContainer />
             <Home />
             <About />
             <TechStack />

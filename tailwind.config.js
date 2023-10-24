@@ -10,7 +10,8 @@ export default {
         //#1B1B1E dark
         //#242425 light
         // bgcolor: "#191919",
-        bgcolor2: "#242425",
+        // bgcolor2: "#242425",
+        bgcolor2: "#1f1f23",
         bgcolor: "#1B1B1E",
         custom: {
           50: "#F2F2F2", // Lightest
