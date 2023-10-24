@@ -1,10 +1,8 @@
-import React from "react";
-
 const About = () => {
   return (
     <div className=" h-screen section " id="about" name="about">
       <div className=" my-20 flex mx-14">
-        <div className=" md:-my-10 hidden sm:block ">
+        <div className=" md:-my-10 hidden sm:block " data-aos="zoom-in-right">
           <img
             src="/personal/pexels-italo-melo-2379004-removebg-preview.png"
             alt=""

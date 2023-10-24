@@ -97,7 +97,11 @@ const Sidebar = () => {
               className={`${styleIcon}  ${
                 activeLink === "projects" ? " ml-3 scale-125   " : ""
               }`}
-              src="/settings/view-details-32.ico"
+              src={
+                activeLink === "projects"
+                  ? "/settings/stack-24g.ico"
+                  : "/settings/stack-24.ico"
+              }
               alt=""
             />
           </Link>

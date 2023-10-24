@@ -38,7 +38,7 @@ const Slider = () => {
         <div className=" slider flex transition-transform duration-1000 ease-in-out   infinite">
           {/* ------------------------- */}
           {duplicatedImageUrls.map((image, index) => (
-            <div key={index} className="slide w-32 mx-3 h-32 flex-shrink-0 ">
+            <div key={index} className="slide w-20 mx-3 h-32 flex-shrink-0 ">
               <img
                 src={image}
                 className=" w-fit h-fit object-cover"
