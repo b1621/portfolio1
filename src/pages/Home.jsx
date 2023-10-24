@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Home = () => {
   const iconStyle =
     "bg-gray-400 rounded-full p-1 w-10 transform hover:scale-110 cursor-pointer transition duration-500";
@@ -26,7 +28,7 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="flex justify-around  w-[90%] mx-auto  align-middle mt-[8%]">
+      <div className="flex flex-col  md:flex-row justify-around  w-[90%] mx-auto  align-middle mt-[8%]">
         <div
           className=" text-6xl w-full flex flex-col justify-center align-middle"
           data-aos="fade-down-right"
@@ -40,15 +42,20 @@ const Home = () => {
             I specialize in full-stack web development and have a keen interest
             in cybersecurity.{" "}
           </div>
-          <div className="text-base">More About me</div>
+          <div className="text-base text-green-700 hover:text-green-800 cursor-pointer">
+            <Link to="about" smooth={true} duration={1500}>
+              More About me{" "}
+              <span className=" text-lg mt-1 hover⚖ ">&darr;</span>
+            </Link>
+          </div>
         </div>
         <div
-          className="flex justify-start   w-full"
+          className="flex justify-start  w-full"
           // data-aos="fade-up-left"
           data-aos="zoom-in"
         >
           <img
-            className=" -ml-28 -mt-10 top p-3 h-[120%]"
+            className=" -ml-28 md:-mt-20 top p-3 h-[150%]"
             src="./christian-buehner-DItYlc26zVI-unsplash-removebg-preview.png"
             alt=""
           />
