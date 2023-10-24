@@ -11,8 +11,12 @@ export default {
         //#242425 light
         // bgcolor: "#191919",
         // bgcolor2: "#242425",
-        bgcolor2: "#1f1f23",
-        bgcolor: "#1B1B1E",
+        // orign
+        // bgcolor2: "#1f1f23",
+        // bgcolor: "#1B1B1E",
+        // from odin knightmode
+        bgcolor2: "#1F2937",
+        bgcolor: "#111827",
         custom: {
           50: "#F2F2F2", // Lightest
           100: "#E6E6E6",

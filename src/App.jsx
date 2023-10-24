@@ -33,7 +33,7 @@ function App() {
             <Home />
             <About />
             <TechStack />
-            <Slider />
+            {/* <Slider /> */}
             <Projects />
             <Contact />
           </div>

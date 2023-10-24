@@ -31,13 +31,22 @@ const Home = () => {
           className=" text-6xl w-full flex flex-col justify-center align-middle"
           data-aos="fade-down-right"
         >
-          <div className="text-center ">
-            Hello 👋 <br /> , I'm
-            <span className=" text-green-700">David B</span>, <br /> Software
-            Developer
+          <div className=" ">
+            Hello 👋, <br /> I'm
+            <span className=" text-7xl px-4 text-green-700">David B</span>,{" "}
+            <br /> Software Developer
           </div>
+          <div className=" text-xl my-9 text-slate-400">
+            I specialize in full-stack web development and have a keen interest
+            in cybersecurity.{" "}
+          </div>
+          <div className="text-base">More About me</div>
         </div>
-        <div className="flex justify-start   w-full" data-aos="fade-up-left">
+        <div
+          className="flex justify-start   w-full"
+          // data-aos="fade-up-left"
+          data-aos="zoom-in"
+        >
           <img
             className=" -ml-28 -mt-10 top p-3 h-[120%]"
             src="./christian-buehner-DItYlc26zVI-unsplash-removebg-preview.png"
