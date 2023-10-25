@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const inputStyle =
-    " border-slate-700 bg-transparent rounded-md border py-2 px-3 w-[80%] md:w-[45%] outline-none ";
+    " border-slate-700 bg-transparent rounded-md border py-2 px-3 w-[100%] md:w-[45%] outline-none ";
 
   const form = useRef();
   const [formData, setFormData] = useState({
@@ -78,8 +78,8 @@ const ContactForm = () => {
         <h2 className=" text-4xl text-center mt-4 mb-12 text-slate-300">
           Drop Me A Message
         </h2>
-        <div className="  m-5">
-          <div className=" space-y-3 md:space-y-0 md:space-x-5 mx-auto flex flex-col md:flex md:flex-row ">
+        <div className="  m-5 ">
+          <div className=" space-y-3 md:space-y-0 md:space-x-5 mx-auto flex flex-col md:flex md:flex-row">
             <input
               placeholder="your name"
               className={`${inputStyle} transition duration-300 focus:border-green-700`}
@@ -99,7 +99,7 @@ const ContactForm = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className=" my-5">
+          <div className=" my-5 ">
             <textarea
               className={`${inputStyle} transition duration-300 focus:border-green-700`}
               placeholder="your message ... "
