@@ -1,18 +1,18 @@
 const About = () => {
   return (
     <div className=" h-screen section " id="about" name="about">
-      <div className=" my-20 flex mx-14">
+      <div className=" my-20 flex md:mx-14 ">
         <div className=" sm:-my-10 hidden md:block " data-aos="zoom-in-right">
           <img
             src="/personal/pexels-italo-melo-2379004-removebg-preview.png"
             alt=""
           />
         </div>
-        <div
-          data-aos="fade-left"
-          className=" space-y-10 w-[650px]  mx-10 my-20"
-        >
-          <h2 className=" text-2xl md:text-5xl text-center">About Me</h2>
+        <div data-aos="fade-left" className=" space-y-7 w-[650px]  mx-10 my-20">
+          <div className="mt-10">
+            <h2 className=" text-3xl md:text-5xl text-center">About Me</h2>
+            <div className="border-b border-green-700 w-14 mt-1 md:w-24 mx-auto"></div>
+          </div>
           <p className=" ">
             Howdy, My Name Is Wadee-_-Haddad A Cyber-Security Student At Amman
             Arab University, Born On May 25, 2004. I've Accomplished Several

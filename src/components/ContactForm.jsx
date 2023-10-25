@@ -75,7 +75,7 @@ const ContactForm = () => {
         className=" bg-bgcolor2 rounded-lg my-20  mx-5 sm:20 lg:mx-40 p-2 "
         data-aos="zoom-in"
       >
-        <h2 className=" text-4xl text-center mt-4 mb-12 text-slate-300">
+        <h2 className=" text-3xl sm:text-4xl text-center mt-4 mb-12 text-slate-300">
           Drop Me A Message
         </h2>
         <div className="  m-5 ">
