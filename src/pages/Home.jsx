@@ -28,12 +28,12 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col  md:flex-row justify-around  w-[90%] mx-auto  align-middle mt-[8%]">
+      <div className="flex flex-col  md:flex-row justify-around  w-[90%] mx-auto  align-middle mt-[12%] md:mt-[8%]">
         <div
-          className=" text-6xl w-full flex flex-col justify-center align-middle"
+          className="  w-full flex flex-col justify-center align-middle"
           data-aos="fade-down-right"
         >
-          <div className=" ">
+          <div className="text-4xl md:text-6xl">
             Hello 👋, <br /> I'm
             <span className=" text-7xl px-4 text-green-700">David B</span>,{" "}
             <br /> Software Developer
