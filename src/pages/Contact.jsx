@@ -11,7 +11,7 @@ const Contact = () => {
         <ContactForm />
         <div className=" border-t border-slate-700 mx-auto  w-[80%] pb-2"></div>
         <div className=" flex justify-around pb-14">
-          <div className="flex text-sm space-x-5 md:space-x-20 text-slate-300">
+          <div className="flex text-sm space-y-1 sm:space-x-5 md:space-x-20 flex-col sm:flex-row text-slate-300">
             <p>+251 925 536 784</p>
             <p>fakemail@mail.com</p>
           </div>
