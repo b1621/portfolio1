@@ -72,7 +72,7 @@ const ContactForm = () => {
   return (
     <form ref={form} onSubmit={sendEmail} className="">
       <div
-        className=" bg-bgcolor2 rounded-lg my-20  mx-5 sm:20 lg:mx-40 p-2 "
+        className=" bg-bgcolor2 rounded-lg my-10 mx-5 sm:20 lg:mx-40 p-2 "
         data-aos="zoom-in"
       >
         <h2 className=" text-3xl sm:text-4xl text-center mt-4 mb-12 text-slate-300">

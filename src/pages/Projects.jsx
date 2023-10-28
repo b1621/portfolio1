@@ -69,7 +69,7 @@ const Projects = () => {
   ];
   return (
     <div
-      className=" min-h-screen border overflow-hidden border-bgcolor2"
+      className=" min-h-screen border overflow-hidden border-bgcolor"
       id="projects"
     >
       <div className=" mt-4">

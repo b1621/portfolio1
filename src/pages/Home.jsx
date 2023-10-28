@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   const iconStyle =
-    "bg-gray-400 rounded-full p-1 w-10 transform hover:scale-110 cursor-pointer transition duration-500";
+    "bg-gray-400 rounded-full p-1 w-7 transform hover:scale-110 cursor-pointer transition duration-500";
   return (
     <div id="home" className=" h-screen">
       <div className=" flex justify-end py-4 space-x-5 pr-10">
@@ -28,7 +28,7 @@ const Home = () => {
           alt=""
         />
       </div>
-      <div className="flex flex-col  md:flex-row justify-around  w-[90%] mx-auto  align-middle mt-[12%] md:mt-[8%]">
+      <div className="flex flex-col  md:flex-row justify-around  w-[88%] mx-auto  align-middle mt-[12%] md:mt-[8%]">
         <div
           className="  w-full flex flex-col justify-center align-middle"
           data-aos="fade-down-right"
@@ -55,7 +55,7 @@ const Home = () => {
           data-aos="zoom-in"
         >
           <img
-            className=" -ml-28 md:-mt-20 top p-3 h-[150%]"
+            className=" -ml-28 mt-0 md:-mt-32 top p-3 h-[130%]"
             src="./christian-buehner-DItYlc26zVI-unsplash-removebg-preview.png"
             alt=""
           />

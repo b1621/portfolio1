@@ -35,12 +35,15 @@ const TechStack = () => {
         <h3 className=" text-center text-2xl text-slate-200">
           Technologies I've been working with recently
         </h3>
-        <div className=" flex flex-wrap  my-28 w-[80%] mx-auto">
+        <div
+          className=" flex flex-wrap  my-28 w-[80%] mx-auto"
+          data-aos="zoom-out-down"
+        >
           {imageUrls.map((image, index) => (
             <div key={index} className="slide m-7 flex-shrink-0 ">
               <img
                 src={image}
-                className=" w-20 object-cover duration-300 transition-all hover:scale-125"
+                className=" w-14 object-cover duration-300 transition-all hover:scale-125"
                 alt={`slide ${index + 1}`}
               />
             </div>
