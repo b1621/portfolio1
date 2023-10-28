@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ContactPage from "./pages/ContactPagev2";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
             {/* <Slider /> */}
             <Projects />
             <Contact />
+            <ContactPage />
           </div>
         </div>
       </div>
