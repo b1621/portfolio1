@@ -84,8 +84,8 @@ const ContactForm = () => {
               placeholder="your name"
               className={`${inputStyle} transition duration-300 focus:border-green-700`}
               type="text"
-              name="user_name"
               id="name"
+              name="user_name"
               value={formData.user_name}
               onChange={handleInputChange}
             />
@@ -93,8 +93,8 @@ const ContactForm = () => {
               type="text"
               placeholder="your email"
               className={`${inputStyle} transition duration-300 focus:border-green-700`}
-              name="user_email"
               id="email"
+              name="user_email"
               value={formData.user_email}
               onChange={handleInputChange}
             />
@@ -103,10 +103,10 @@ const ContactForm = () => {
             <textarea
               className={`${inputStyle} transition duration-300 focus:border-green-700`}
               placeholder="your message ... "
-              name="message"
               id="message"
               cols="30"
               rows="9"
+              name="message"
               value={formData.message}
               onChange={handleInputChange}
             ></textarea>

@@ -36,7 +36,7 @@ function App() {
             <TechStack />
             {/* <Slider /> */}
             <Projects />
-            <Contact />
+            {/* <Contact /> */}
             <ContactPage />
           </div>
         </div>

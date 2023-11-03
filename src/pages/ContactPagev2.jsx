@@ -43,6 +43,7 @@ const ContactPage = () => {
                       src="/5340252_discord_forum_group_message_icon.png"
                       alt=""
                     />
+                    <img src="/socialmedia/twitter-24.ico" alt="" />
                   </div>
                 </div>
               </div>
