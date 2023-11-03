@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjectCard = ({
   title,
   description,
@@ -45,22 +43,32 @@ const ProjectCard = ({
         <img className=" rounded-md opacity-70 h-44" src={image} alt="" />
 
         <div className="flex justify-between  text-sm text-slate-400">
-          <p className=" cursor-pointer transition-all duration-300 flex hover:text-green-700">
+          <a
+            className=" cursor-pointer transition-all duration-300 flex hover:text-green-700"
+            href={livePreview}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className=" h-4 pr-2 mt-[3px]"
               src="/chain_connect_hyper_internet_link_security_web_icon_127072.png"
               alt=""
             />{" "}
             Live preview
-          </p>
-          <p className=" cursor-pointer transition-all duration-300 flex hover:text-green-700">
+          </a>
+          <a
+            className=" cursor-pointer transition-all duration-300 flex hover:text-green-700"
+            href={viewCode}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className=" h-4 pr-2 mt-[3px]"
               src="/github_logo_icon_147285.png"
               alt=""
             />{" "}
             Source code
-          </p>
+          </a>
         </div>
       </div>
     </div>

@@ -4,40 +4,22 @@ import ProjectCard from "../components/ProjectCard";
 const Projects = () => {
   const projectsList = [
     {
-      title: "Project 1 title",
+      title: "Worldwise",
       description:
         " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis a cupiditate ",
       techStack: "HTML,JavaScript,SASS,React",
-      livePreview: "",
-      viewCode: "",
-      image: "/projects/best-homepage-13.png",
-    },
-    {
-      title: "Project 2 title",
-      description:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-      techStack: "HTML,JavaScript,SASS,React",
-      livePreview: "",
-      viewCode: "",
-      image: "/projects/best-homepage-102.png",
-    },
-    {
-      title: "Project 2 title",
-      description:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-      techStack: "HTML,JavaScript,SASS,React",
-      livePreview: "",
-      viewCode: "",
+      livePreview: "https://worldwise-spa.vercel.app/",
+      viewCode: "https://github.com/b1621/worldwise-SPA",
       image: "/projects/best-homepage-14.png",
     },
     {
-      title: "Project 2 title",
+      title: "UsePopcorn",
       description:
         " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
       techStack: "HTML,JavaScript,SASS,React",
-      livePreview: "",
-      viewCode: "",
-      image: "/projects/best-homepage-25.png",
+      livePreview: "https://usepopcorn-three.vercel.app/",
+      viewCode: "https://github.com/b1621/usepopcorn",
+      image: "/projects/Screenshot from 2023-11-03 08-43-35.png",
     },
     {
       title: "Project 2 title",
@@ -46,7 +28,7 @@ const Projects = () => {
       techStack: "HTML,JavaScript,SASS,React",
       livePreview: "",
       viewCode: "",
-      image: "/projects/best-homepage-7.png",
+      image: "/proj/best-homepage-14.png",
     },
     {
       title: "Project 2 title",
@@ -55,7 +37,7 @@ const Projects = () => {
       techStack: "HTML,JavaScript,SASS,React",
       livePreview: "",
       viewCode: "",
-      image: "/projects/best-homepage-22.png",
+      image: "/proj/best-homepage-25.png",
     },
     {
       title: "Project 2 title",
@@ -64,7 +46,25 @@ const Projects = () => {
       techStack: "HTML,JavaScript,SASS,React",
       livePreview: "",
       viewCode: "",
-      image: "/projects/best-homepage-9.png",
+      image: "/proj/best-homepage-7.png",
+    },
+    {
+      title: "Project 2 title",
+      description:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
+      techStack: "HTML,JavaScript,SASS,React",
+      livePreview: "",
+      viewCode: "",
+      image: "/proj/best-homepage-22.png",
+    },
+    {
+      title: "Project 2 title",
+      description:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
+      techStack: "HTML,JavaScript,SASS,React",
+      livePreview: "",
+      viewCode: "",
+      image: "/proj/best-homepage-9.png",
     },
   ];
   return (
