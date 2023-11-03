@@ -41,8 +41,8 @@ const ContactFormV2 = () => {
             className="w-full bg-transparent border border-slate-500 rounded-md py-2 px-3 outline-none placeholder:text-sm"
           ></textarea>
         </div>
-        <div>
-          <button className="border border-green-700 rounded-md px-7 text-sm py-1">
+        <div className="flex flex-row-reverse">
+          <button className="border border-green-700 rounded-md px-7 text-sm py-1  bg-green-950 duration-500 transition hover:bg-green-900 ">
             Send{" "}
           </button>
         </div>
