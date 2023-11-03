@@ -2,12 +2,12 @@ import ContactFormV2 from "../components/ContactFormV2";
 
 const ContactPage = () => {
   const iconStyle =
-    "bg-gray-400 rounded-full p-1 w-6 transform hover:scale-110 cursor-pointer transition duration-500";
+    "bg-gray-400 rounded-full p-1 w-6 h-7 transform hover:scale-110 cursor-pointer transition duration-500";
   return (
     <div className=" min-h-screen" id="contact">
-      <div className=" h-screen  flex flex-col justify-between">
-        <div className="flex flex-col md:flex-row   h-[90%]">
-          <div className=" w-1/2">
+      <div className=" min-h-screen  flex flex-col justify-center">
+        <div className="flex flex-col  md:flex-row my-10 md:my-0 ">
+          <div className=" w-full md:w-1/2">
             <div className="h-full flex flex-col justify-center">
               <div className="md:ml-28 pb-20">
                 <h2 className=" text-5xl font-bold">Get in Touch</h2>
@@ -48,7 +48,7 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2 ">
             <ContactFormV2 />
           </div>
         </div>

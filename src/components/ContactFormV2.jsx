@@ -1,7 +1,10 @@
 const ContactFormV2 = () => {
   return (
     <div className=" h-full flex flex-col justify-center">
-      <form action="" className="  w-2/3 mx-auto space-y-5 text-slate-200">
+      <form
+        action=""
+        className=" w-full md:w-2/3 mx-auto space-y-5 text-slate-200"
+      >
         {/* <h2>Send Me some messgae</h2> */}
         <div className=" space-y-1">
           <label htmlFor="name" className="text-sm">

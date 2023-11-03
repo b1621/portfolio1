@@ -22,13 +22,13 @@ const Projects = () => {
       image: "/projects/Screenshot from 2023-11-03 08-43-35.png",
     },
     {
-      title: "Project 2 title",
+      title: "Fast Pizza Menu",
       description:
         " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
       techStack: "HTML,JavaScript,SASS,React",
-      livePreview: "",
-      viewCode: "",
-      image: "/proj/best-homepage-14.png",
+      livePreview: "https://fast-pizza-menu.vercel.app/",
+      viewCode: "https://github.com/b1621/fast-pizza-menu",
+      image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
     },
     {
       title: "Project 2 title",
