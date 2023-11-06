@@ -3,9 +3,10 @@ import { Link } from "react-scroll";
 const Home = () => {
   const iconStyle =
     "bg-gray-400 rounded-full p-1 w-7 transform hover:scale-110 cursor-pointer transition duration-500";
+  const iconStyle2 = "hover:scale-110 cursor-pointer transition duration-500";
   return (
     <div id="home" className=" h-screen">
-      <div className=" flex justify-end py-4 space-x-5 pr-10">
+      {/* <div className=" flex justify-end py-4 space-x-5 pr-10">
         <img
           className={iconStyle}
           src="/367593_linkedin_business_network_social_icon.png"
@@ -27,6 +28,22 @@ const Home = () => {
           src="/5340252_discord_forum_group_message_icon.png"
           alt=""
         />
+      </div> */}
+      <div className="flex justify-end py-6  space-x-7 pr-12">
+        <img
+          className={iconStyle2}
+          src="/socialmedia/discord-2-24.ico"
+          alt=""
+        />
+        <img className={iconStyle2} src="/socialmedia/github-6-24.ico" alt="" />
+        {/* <img className="h-6" src="/socialmedia/github-9-24.ico" alt="" />
+        <img className="h-6" src="/socialmedia/linkedin-4-24.ico" alt="" /> */}
+        <img
+          className={`${iconStyle2} h-5`}
+          src="/socialmedia/linkedin-24.ico"
+          alt=""
+        />
+        <img className={iconStyle2} src="/socialmedia/twitter-24.ico" alt="" />
       </div>
       <div className=" min-h-full flex flex-col justify-center">
         <div className="flex flex-col  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 ">
@@ -34,13 +51,13 @@ const Home = () => {
             className="  w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
           >
-            <div className="text-4xl md:text-6xl">
+            <div className="text-2xl sm:text-4xl md:text-6xl">
               Hello 👋, <br /> I'm
               <span className=" text-7xl px-4 text-green-700">
                 David B
               </span>, <br /> Software Developer
             </div>
-            <div className=" text-xl my-9 text-slate-400">
+            <div className=" text-lg md:text-xl my-9 text-slate-400">
               I specialize in full-stack web development and have a keen
               interest in cybersecurity.{" "}
             </div>
