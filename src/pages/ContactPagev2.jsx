@@ -9,19 +9,19 @@ const ContactPage = () => {
         <div className="flex flex-col  md:flex-row my-10 md:my-0  mx-10 md:mx-0">
           <div className=" w-full md:w-1/2">
             <div className="h-full flex flex-col justify-center">
-              <div className="md:ml-28 pb-20">
-                <h2 className=" text-5xl font-bold">Get in Touch</h2>
-                <p className="py-3 text-slate-100">
+              <div className="md:ml-28 pb-20 text-center md:text-start">
+                <h2 className="text-3xl md:text-5xl font-bold">Get in Touch</h2>
+                <p className="py-3 text-sm md:text-base text-slate-100">
                   Whether you have a project in mind, a question about my work,
                   or just want to say hello, I'd love to hear from you! Feel
                   free to drop me a message, and let's start a conversation.
                 </p>
-                <div className=" flex justify-between py-7">
+                <div className=" flex justify-between py-7 flex-col md:flex-row">
                   <div className="flex text-sm space-y-1 sm:space-x-5 md:space-x-20 flex-col sm:flex-row text-slate-300">
                     <p>+251 925 536 784</p>
                     <p>fakemail@mail.com</p>
                   </div>
-                  <div className=" flex space-x-5 ">
+                  <div className=" flex space-x-5 mt-5 md:mt-0 ">
                     <img
                       className={iconStyle}
                       src="/367593_linkedin_business_network_social_icon.png"
