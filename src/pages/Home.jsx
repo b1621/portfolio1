@@ -3,9 +3,10 @@ import { Link } from "react-scroll";
 const Home = () => {
   const iconStyle =
     "bg-gray-400 rounded-full p-1 w-7 transform hover:scale-110 cursor-pointer transition duration-500";
-  const iconStyle2 = "hover:scale-110 cursor-pointer transition duration-500";
+  const iconStyle2 =
+    "hover:scale-110 h-5 w-5 cursor-pointer transition duration-500";
   return (
-    <div id="home" className=" min-h-screen border border-green-500">
+    <div id="home" className=" relative min-h-screen ">
       {/* <div className=" flex justify-end py-4 space-x-5 pr-10">
         <img
           className={iconStyle}
@@ -29,7 +30,7 @@ const Home = () => {
           alt=""
         />
       </div> */}
-      <div className=" flex justify-center md:justify-end pb-10  md:py-6  space-x-7 pr-12">
+      <div className=" absolute w-full flex justify-center md:justify-end pb-10  md:py-6  space-x-7 pr-12">
         <img
           className={iconStyle2}
           src="/socialmedia/discord-2-24.ico"
@@ -38,20 +39,20 @@ const Home = () => {
         <img className={iconStyle2} src="/socialmedia/github-6-24.ico" alt="" />
         {/* <img className="h-6" src="/socialmedia/github-9-24.ico" alt="" />
         <img className="h-6" src="/socialmedia/linkedin-4-24.ico" alt="" /> */}
+        <img className={iconStyle2} src="/socialmedia/twitter-24.ico" alt="" />
         <img
           className={`${iconStyle2} h-5`}
           src="/socialmedia/linkedin-24.ico"
           alt=""
         />
-        <img className={iconStyle2} src="/socialmedia/twitter-24.ico" alt="" />
       </div>
-      <div className="border border-blue-400 h-1/2 flex flex-col justify-center   ">
-        <div className="border flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 ">
+      <div className="  h-screen flex flex-col justify-center">
+        <div className=" flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 md:ml-32 ml-0 mt-10 ">
           <div
             className="  w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
           >
-            <div className="text-4xl md:text-6xl">
+            <div className="text-4xl md:text-5xl">
               Hello 👋, <br /> I'm
               <span className="font-bold md:text-7xl px-4 text-green-700">
                 David B

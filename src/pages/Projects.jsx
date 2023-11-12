@@ -77,7 +77,7 @@ const Projects = () => {
         <h3 className="text-center text-2xl text-slate-200 my-5">
           Things i've built so far
         </h3>
-        <div className="flex flex-wrap  mb-32 mx-10">
+        <div className="flex flex-wrap  mb-32 mx-10 md:mx-20">
           {projectsList.map((project) => (
             <div key={project}>
               <ProjectCard
