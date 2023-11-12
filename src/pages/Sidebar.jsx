@@ -3,7 +3,7 @@ import { Link, Element, animateScroll as scroll, scroller } from "react-scroll";
 
 const Sidebar = () => {
   const styleIcon =
-    "w-5 opacity-70 duration-300 hover:scale-110 cursor-pointer ";
+    "w-4 opacity-70 duration-300 hover:scale-110 cursor-pointer ";
 
   const [activeLink, setActiveLink] = useState("");
 
