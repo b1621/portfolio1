@@ -52,7 +52,7 @@ const Home = () => {
             className="  w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
           >
-            <div className="text-4xl md:text-5xl">
+            <div className="text-3xl md:text-5xl">
               Hello 👋, <br /> I'm
               <span className="font-bold md:text-7xl px-4 text-green-700">
                 David B
