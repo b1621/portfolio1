@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <div className=" ">
               <a
-                className=" px-5 py-1 border rounded-md border-green-700   hover:shadow-md hover:shadow-green-700  text-green-700 "
+                className=" px-5 py-2 border rounded-md border-green-700 text-white duration-300 bg-green-800 hover:bg-green-900 "
                 href="/pdf/Booktree.ngLinux-Basics-for-Hackers.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
