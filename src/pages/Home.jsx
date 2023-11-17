@@ -30,7 +30,7 @@ const Home = () => {
           alt=""
         />
       </div> */}
-      <div className=" absolute w-full flex justify-center md:justify-end pb-10  md:py-6  space-x-7 pr-12">
+      <div className=" absolute w-full flex justify-center md:justify-end py-10  md:py-6  space-x-7 pr-12">
         <a
           href="https://discord.com/users/1147455296164347904"
           target="__blank"
