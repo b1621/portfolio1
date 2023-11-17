@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 const About = () => {
   return (
     <div className=" min-h-screen section " id="about" name="about">
@@ -68,13 +69,14 @@ const About = () => {
             <p>
               I'm thrilled to embark on new challenges and contribute my
               expertise to innovative projects.{" "}
-              <a
-                href="#contact"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={2000}
                 className=" text-green-700 hover:cursor-pointer"
               >
-                {" "}
                 Let's connect{" "}
-              </a>{" "}
+              </Link>
               and build something remarkable together!"
             </p>
             {/* <div className=" ">
