@@ -47,16 +47,23 @@ const ContactPage = () => {
                       className={socialmediaIconsStyle}
                       alt=""
                     /> */}
-                    <img
-                      src="/socialmedia/github-9-24.ico"
-                      className={socialmediaIconsStyle}
-                      alt=""
-                    />
-                    <img
-                      src="/socialmedia/linkedin-4-24.ico"
-                      className={socialmediaIconsStyle}
-                      alt=""
-                    />
+                    <a href="https://github.com/b1621" target="__blank">
+                      <img
+                        src="/socialmedia/github-9-24.ico"
+                        className={socialmediaIconsStyle}
+                        alt=""
+                      />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/bewuket-b-71287222b"
+                      target="__blank"
+                    >
+                      <img
+                        src="/socialmedia/linkedin-4-24.ico"
+                        className={socialmediaIconsStyle}
+                        alt=""
+                      />{" "}
+                    </a>
                     {/* <img
                       src="/socialmedia/linkedin-24.ico"
                       className={socialmediaIconsStyle}
@@ -67,11 +74,16 @@ const ContactPage = () => {
                       className={socialmediaIconsStyle}
                       alt=""
                     />
-                    <img
-                      src="/socialmedia/discord-2-24.ico"
-                      className={socialmediaIconsStyle}
-                      alt=""
-                    />
+                    <a
+                      href="https://discord.com/users/1147455296164347904"
+                      target="__blank"
+                    >
+                      <img
+                        src="/socialmedia/discord-2-24.ico"
+                        className={socialmediaIconsStyle}
+                        alt=""
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

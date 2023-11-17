@@ -31,20 +31,36 @@ const Home = () => {
         />
       </div> */}
       <div className=" absolute w-full flex justify-center md:justify-end pb-10  md:py-6  space-x-7 pr-12">
-        <img
-          className={iconStyle2}
-          src="/socialmedia/discord-2-24.ico"
-          alt=""
-        />
-        <img className={iconStyle2} src="/socialmedia/github-6-24.ico" alt="" />
+        <a
+          href="https://discord.com/users/1147455296164347904"
+          target="__blank"
+        >
+          <img
+            className={iconStyle2}
+            src="/socialmedia/discord-2-24.ico"
+            alt=""
+          />
+        </a>
+        <a href="https://github.com/b1621" target="__blank">
+          <img
+            className={iconStyle2}
+            src="/socialmedia/github-6-24.ico"
+            alt=""
+          />
+        </a>
         {/* <img className="h-6" src="/socialmedia/github-9-24.ico" alt="" />
         <img className="h-6" src="/socialmedia/linkedin-4-24.ico" alt="" /> */}
         <img className={iconStyle2} src="/socialmedia/twitter-24.ico" alt="" />
-        <img
-          className={`${iconStyle2} h-5`}
-          src="/socialmedia/linkedin-24.ico"
-          alt=""
-        />
+        <a
+          href="https://www.linkedin.com/in/bewuket-b-71287222b"
+          target="__blank"
+        >
+          <img
+            className={`${iconStyle2} h-5`}
+            src="/socialmedia/linkedin-24.ico"
+            alt=""
+          />
+        </a>
       </div>
       <div className="  h-screen flex flex-col justify-center">
         <div className=" flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 md:ml-32 ml-0 mt-10 ">
@@ -55,7 +71,7 @@ const Home = () => {
             <div className="text-3xl md:text-5xl">
               Hello 👋, <br /> I'm
               <span className="font-bold md:text-7xl px-4 text-green-700">
-                David B
+                Bewuket Baye
               </span>
               , <br /> Software Developer
             </div>
@@ -75,9 +91,14 @@ const Home = () => {
             // data-aos="fade-up-left"
             data-aos="zoom-in"
           >
-            <img
+            {/* <img
               className=" ml-0 md:-ml-20  mt-0 md:-mt-20 top p-3 h-[130%]"
               src="./christian-buehner-DItYlc26zVI-unsplash-removebg-preview.png"
+              alt=""
+            /> */}
+            <img
+              className="  -mt-32 ml-20 scale-125"
+              src="/pers/IMG_2803-removebg-preview.png"
               alt=""
             />
           </div>

@@ -6,6 +6,11 @@ const ProjectCard = ({
   viewCode,
   image,
 }) => {
+  const maxLength = 100;
+  const truncatedDescription =
+    description.length > maxLength
+      ? `${description.substring(0, maxLength)} ...`
+      : description;
   return (
     <div
       className="border border-slate-700 text-slate-400  w-72 rounded-xl mt-7 mr-10"
@@ -38,7 +43,7 @@ const ProjectCard = ({
       </div> */}
       <div className=" p-4 space-y-2">
         <h2 className="text-lg text-slate-200">{title}</h2>
-        <p className=" text-sm text-slate-300">{description}</p>
+        <p className=" text-sm text-slate-300">{truncatedDescription}</p>
         <p className=" text-xs ">Tech stack : {techStack}</p>
         <img className=" rounded-md opacity-70 h-44" src={image} alt="" />
 
