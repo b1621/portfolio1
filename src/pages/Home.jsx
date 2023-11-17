@@ -68,9 +68,9 @@ const Home = () => {
             className=" mt-20 md:mt-0 w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
           >
-            <div className="text-3xl md:text-5xl">
+            <div className="text-3xl md:text-4xl">
               Hello 👋, <br /> I'm
-              <span className="font-bold md:text-7xl px-4 text-green-700">
+              <span className="font-bold md:text-5xl px-4 text-green-700">
                 Bewuket Baye
               </span>
               , <br /> Software Developer
@@ -97,7 +97,7 @@ const Home = () => {
               alt=""
             /> */}
             <img
-              className=" -mt-20 md:-mt-32 ml-0 md:ml-20 md:scale-125"
+              className=" -mt-20 md:-mt-32 ml-0 md:ml-20 md:scale-110"
               src="/pers/IMG_2803-removebg-preview.png"
               alt=""
             />

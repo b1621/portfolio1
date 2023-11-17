@@ -5,7 +5,7 @@ const About = () => {
       <div className=" flex flex-col h-full justify-center">
         <div className="  flex md:mx-14 mb-10 ">
           <div
-            className=" sm:-my-5 scale-110 hidden md:block "
+            className="  scale-110 hidden md:block "
             data-aos="zoom-in-right"
           >
             <img src="/pers/msg432754405-44032-removebg-preview.png" alt="" />
@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div
             data-aos="fade-left"
-            className=" space-y-7 w-[650px]  mx-10 my-20 text-base text-lg"
+            className=" space-y-7 w-[650px]  mx-10 my-10 text-base text-lg"
           >
             <div className="mt-10">
               <h2 className=" text-3xl md:text-5xl text-center">About Me</h2>
