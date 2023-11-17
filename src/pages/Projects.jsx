@@ -4,6 +4,15 @@ import ProjectCard from "../components/ProjectCard";
 const Projects = () => {
   const projectsList = [
     {
+      title: "Fast Pizza Menu",
+      description:
+        " Fast-Pizza is an interactive web-based application designed to simplify the process of ordering food items from a diverse menu. The platform presents users with a user-friendly interface showcasing a variety of cuisines and dishes.",
+      techStack: "HTML,Tailwind CSS,React, Redux-Toolkit",
+      livePreview: "https://fast-pizza-menu.vercel.app/",
+      viewCode: "https://github.com/b1621/fast-pizza-menu",
+      image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
+    },
+    {
       title: "Worldwise",
       description:
         " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis a cupiditate ",
@@ -21,15 +30,7 @@ const Projects = () => {
       viewCode: "https://github.com/b1621/usepopcorn",
       image: "/projects/Screenshot from 2023-11-03 08-43-35.png",
     },
-    {
-      title: "Fast Pizza Menu",
-      description:
-        " Fast-Pizza is an interactive web-based application designed to simplify the process of ordering food items from a diverse menu. The platform presents users with a user-friendly interface showcasing a variety of cuisines and dishes.",
-      techStack: "HTML,Tailwind CSS,React, Redux-Toolkit",
-      livePreview: "https://fast-pizza-menu.vercel.app/",
-      viewCode: "https://github.com/b1621/fast-pizza-menu",
-      image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
-    },
+
     // {
     //   title: "Project 2 title",
     //   description:
