@@ -63,7 +63,7 @@ const Home = () => {
         </a>
       </div>
       <div className="  min-h-screen flex flex-col justify-center">
-        <div className=" flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 md:ml-32 ml-0 mt-10 pl-3 md:pl-0">
+        <div className=" flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 md:ml-32 ml-0 mt-10 pl-3 sm:pl-0">
           <div
             className=" mt-20 md:mt-0 w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
