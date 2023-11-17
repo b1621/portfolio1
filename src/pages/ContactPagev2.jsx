@@ -21,8 +21,8 @@ const ContactPage = () => {
                 </p>
                 <div className=" flex justify-between py-7 flex-col md:flex-row align-middle items-center">
                   <div className="flex text-sm space-y-1 flex-col  text-slate-300">
-                    <p>+251 925 536 784</p>
-                    <p>fakemail@mail.com</p>
+                    {/* <p>+251 925 536 784</p> */}
+                    <p>bewuket.dev@gmail.com</p>
                   </div>
                   <div className=" flex space-x-5 mt-5 md:mt-0 ">
                     {/* <img

@@ -32,15 +32,15 @@ const TechStack = () => {
       <div className="mt-[2%] ">
         {/* <h2 className=" font-bold text-xl text-center">My Tech Stack</h2> */}
         <h2 className="text-center text-4xl mb-3">My Tech Stack</h2>
-        <h3 className=" text-center text-2xl text-slate-200">
+        <h3 className=" text-center md:text-2xl text-slate-200">
           Technologies I've been working with recently
         </h3>
         <div
-          className=" flex flex-wrap  my-28 w-[80%] mx-auto"
+          className=" flex flex-wrap my-14 md:my-28 w-[80%] mx-auto"
           data-aos="zoom-out-down"
         >
           {imageUrls.map((image, index) => (
-            <div key={index} className="slide m-7 flex-shrink-0 ">
+            <div key={index} className="slide m-8 md:m-7 flex-shrink-0 ">
               <img
                 src={image}
                 className=" w-14 object-cover duration-300 transition-all hover:scale-125"

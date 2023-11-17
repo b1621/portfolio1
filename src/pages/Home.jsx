@@ -62,10 +62,10 @@ const Home = () => {
           />
         </a>
       </div>
-      <div className="  h-screen flex flex-col justify-center">
+      <div className="  min-h-screen flex flex-col justify-center">
         <div className=" flex flex-col-reverse  md:flex-row justify-around  w-[88%] mx-auto  align-middle pb-20 md:ml-32 ml-0 mt-10 ">
           <div
-            className="  w-full flex flex-col justify-center align-middle"
+            className=" mt-20 md:mt-0 w-full flex flex-col justify-center align-middle"
             data-aos="fade-down-right"
           >
             <div className="text-3xl md:text-5xl">
@@ -75,7 +75,7 @@ const Home = () => {
               </span>
               , <br /> Software Developer
             </div>
-            <div className=" text-lg md:text-xl my-9 text-slate-400">
+            <div className=" text-lg md:text-xl my-5 md:my-9 text-slate-400">
               I specialize in full-stack web development and have a keen
               interest in cybersecurity.{" "}
             </div>
@@ -97,7 +97,7 @@ const Home = () => {
               alt=""
             /> */}
             <img
-              className="  -mt-32 ml-20 scale-125"
+              className=" -mt-20 md:-mt-32 ml-0 md:ml-20 md:scale-125"
               src="/pers/IMG_2803-removebg-preview.png"
               alt=""
             />

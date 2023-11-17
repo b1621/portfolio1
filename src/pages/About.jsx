@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className=" h-screen section " id="about" name="about">
+    <div className=" min-h-screen section " id="about" name="about">
       <div className=" flex flex-col h-full justify-center">
         <div className="  flex md:mx-14 mb-10 ">
           <div
@@ -67,8 +67,15 @@ const About = () => {
             </p>
             <p>
               I'm thrilled to embark on new challenges and contribute my
-              expertise to innovative projects. Let's connect and build
-              something remarkable together!"
+              expertise to innovative projects.{" "}
+              <a
+                href="#contact"
+                className=" text-green-700 hover:cursor-pointer"
+              >
+                {" "}
+                Let's connect{" "}
+              </a>{" "}
+              and build something remarkable together!"
             </p>
             {/* <div className=" ">
               <a
