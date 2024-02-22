@@ -10,10 +10,7 @@ const About = () => {
     <div className="section min-h-screen" id="about" name="about">
       <div className="flex h-full flex-col justify-center">
         <div className="mb-10 flex md:mx-14">
-          <div
-            className="hidden scale-110 md:block"
-            data-aos="zoom-in-right"
-          >
+          <div className="hidden scale-110 md:block" data-aos="zoom-in-right">
             <img src="/pers/msg432754405-44032-removebg-preview.png" alt="" />
             {/* <img src="/pers/msg432754405-44030-removebg-preview.png" alt="" /> */}
             {/* <img
