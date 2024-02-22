@@ -30,6 +30,15 @@ const Projects = () => {
       viewCode: "https://github.com/b1621/fast-pizza-menu",
       image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
     },
+    {
+      title: "Azmari Music app",
+      description:
+        " Fast-Pizza is an interactive web-based application designed to simplify the process of ordering food items from a diverse menu. The platform presents users with a user-friendly interface showcasing a variety of cuisines and dishes.",
+      techStack: "HTML,Emotion CSS,React, Redux-Toolkit, Node js ,Mongodb ",
+      livePreview: "https://azmari-musicapp.vercel.app/",
+      viewCode: "https://github.com/b1621/azmari-music",
+      image: "/projects/Screenshot from 2024-02-22 14-15-25.png",
+    },
     // {
     //   title: "Project 2 title",
     //   description:
@@ -69,15 +78,15 @@ const Projects = () => {
   ];
   return (
     <div
-      className=" min-h-screen border overflow-hidden border-bgcolor"
+      className="min-h-screen overflow-hidden border border-bgcolor"
       id="projects"
     >
-      <div className=" mt-4">
-        <h2 className="text-center text-5xl mt-10">Projects</h2>
-        <h3 className="text-center text-2xl text-slate-200 my-5">
+      <div className="mt-4">
+        <h2 className="mt-10 text-center text-5xl">Projects</h2>
+        <h3 className="my-5 text-center text-2xl text-slate-200">
           Things i've built so far
         </h3>
-        <div className="flex flex-wrap  mb-32 mx-10 md:mx-20">
+        <div className="mx-10 mb-32 flex flex-wrap md:mx-20">
           {projectsList.map((project) => (
             <div key={project}>
               <ProjectCard
