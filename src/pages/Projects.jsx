@@ -30,15 +30,15 @@ const Projects = () => {
       viewCode: "https://github.com/b1621/usepopcorn",
       image: "/projects/Screenshot from 2023-11-03 08-43-35.png",
     },
-    {
-      title: "Fast Pizza Menu",
-      description:
-        " Fast-Pizza is an interactive web-based application designed to simplify the process of ordering food items from a diverse menu. The platform presents users with a user-friendly interface showcasing a variety of cuisines and dishes.",
-      techStack: "HTML,Tailwind CSS,React, Redux-Toolkit",
-      livePreview: "https://fast-pizza-menu.vercel.app/",
-      viewCode: "https://github.com/b1621/fast-pizza-menu",
-      image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
-    },
+    // {
+    //   title: "Fast Pizza Menu",
+    //   description:
+    //     " Fast-Pizza is an interactive web-based application designed to simplify the process of ordering food items from a diverse menu. The platform presents users with a user-friendly interface showcasing a variety of cuisines and dishes.",
+    //   techStack: "HTML,Tailwind CSS,React, Redux-Toolkit",
+    //   livePreview: "https://fast-pizza-menu.vercel.app/",
+    //   viewCode: "https://github.com/b1621/fast-pizza-menu",
+    //   image: "/projects/Screenshot from 2023-11-03 11-32-49.png",
+    // },
     {
       title: "Azmari Music app",
       description:
@@ -48,42 +48,6 @@ const Projects = () => {
       viewCode: "https://github.com/b1621/azmari-music",
       image: "/projects/Screenshot from 2024-02-22 14-15-25.png",
     },
-    // {
-    //   title: "Project 2 title",
-    //   description:
-    //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-    //   techStack: "HTML,JavaScript,SASS,React",
-    //   livePreview: "",
-    //   viewCode: "",
-    //   image: "/proj/best-homepage-25.png",
-    // },
-    // {
-    //   title: "Project 2 title",
-    //   description:
-    //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-    //   techStack: "HTML,JavaScript,SASS,React",
-    //   livePreview: "",
-    //   viewCode: "",
-    //   image: "/proj/best-homepage-7.png",
-    // },
-    // {
-    //   title: "Project 2 title",
-    //   description:
-    //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-    //   techStack: "HTML,JavaScript,SASS,React",
-    //   livePreview: "",
-    //   viewCode: "",
-    //   image: "/proj/best-homepage-22.png",
-    // },
-    // {
-    //   title: "Project 2 title",
-    //   description:
-    //     " Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nobis accusamus omnis .",
-    //   techStack: "HTML,JavaScript,SASS,React",
-    //   livePreview: "",
-    //   viewCode: "",
-    //   image: "/proj/best-homepage-9.png",
-    // },
   ];
   return (
     <div
