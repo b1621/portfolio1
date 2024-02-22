@@ -65,7 +65,7 @@ const Home = () => {
       <div className="flex min-h-screen flex-col justify-center">
         <div className="mx-auto ml-0 mt-10 flex w-[88%] flex-col justify-around pb-20 pl-3 align-middle sm:pl-0 md:ml-32 md:flex-row">
           <div
-            className="mx-auto mt-20 flex w-[80%] flex-col justify-center align-middle md:mt-0 md:w-full"
+            className="ml-5 mt-20 flex flex-col justify-center align-middle md:ml-0 md:mt-0 md:w-full"
             data-aos="fade-down-right"
           >
             <div className="text-3xl md:text-4xl">
